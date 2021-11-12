@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css"/>
-        <title>JSP Page</title>
+        <title>Calculator</title>
     </head>
     <body>
 
@@ -38,7 +38,7 @@
             
         </tr>
         <tr>
-            <td><input class="button" type="button" value="Enter" onclick="display('Enter')" style="background-color:#02A824" /> </td>
+            <td><input class="button" type="button" value="Enter" onclick="addition()" style="background-color:#02A824" /> </td>
             <td><input class="button" type="button" value="0" onclick="display('0')" /> </td>
             <!-- clearScreen() function clear all the values on display -->
             <td><input class="button" type="button" value="Cancel" onclick="clearScreen()" style="background-color: #DC0000;" /> </td>

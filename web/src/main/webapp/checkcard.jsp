@@ -17,7 +17,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Card Validation Checker</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Check Credit Card</h1>

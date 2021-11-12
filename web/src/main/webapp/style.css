@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+h1{
+
+color: #ff0000;
+}
+
 .calculator {
     padding: 10px;
     border-radius: 1em;
