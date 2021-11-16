@@ -10,11 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css"/>
-        <title>Calculator</title>
+        <title>Terminal</title>
     </head>
     <body>
 
-    <table class="calculator">
+    <table class="terminal">
         <tr>
             <td colspan="3"><input class="display-box" type="text" id="result" disabled /></td>
         </tr>
