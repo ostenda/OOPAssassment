@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+
+body{
+    background: url("images/image.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+  
+    
+    
+    
+  }
+
 h1{
 
 color: #ff0000;
 }
 
-.calculator {
+
+.terminal {
     padding: 10px;
     border-radius: 1em;
     height: 380px;
@@ -45,4 +57,45 @@ color: #ff0000;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+h1{
+    text-align:center;
+    color:black;
+    font-size: 40px;
+}
+
+h2{
+    text-align:left;
+    color:black;
+    font-size: 25px; 
+}
+
+a {
+    
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu{
+     text-align: center;
+    font-size: 25px;
+}
+
+.menu:hover{
+    background: #318EE7;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
+
+#menuWrapper{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
 }
