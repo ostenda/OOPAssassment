@@ -8,19 +8,28 @@
     <body>
         <h2>Login:</h2>
        <main>
-      <div id= "labels">
-        <p>Please enter your mail address and password to login.</p>
-        <form id = "player_form" onsubmit="return players();" >
-            <label for="Email">Email Address:</label> <input id="Email" name="email"><br>
-            <label for="Password">Password:</label> <input id="Password" name="password">
-            <button id="save">Click Here</button>
-            <p>If you are not registered please register here:<a href="./registration.html" target="_blank" >Registration</a><br> </p>
-          
-            
-        </form>
-        <p id="result"> </p>
-      </div>
-    </main> 
+        <div id= "labels">
+             <p>Please enter your mail address and password to login.</p>
+                 <form action="" method="post">
+                       <table>
+                         <tr>
+                             <td>Email Address:</td>
+                             <td><input type="text" name="email" Email="Enter name Here"></td>
+                         </tr>
+                         <tr>
+                             <td>Password:</td>
+                             <td><input type="password" name="user_pass" Email="Enter Password Here"></td>
+                         </tr>
+
+                         <tr>
+                             <td><input type="submit" name="submit" value="Login"></td>
+                             <td><p>Not registered yet? Please register here: <a href="registration.html">Register</a></p></td>
+                         </tr>
+                       </table>
+                 </form>
+             <p id="result"> </p>
+        </div>
+       </main> 
 
     </body>
 </html>
