@@ -32,6 +32,7 @@
 
                             <button type="submit" class="btn btn-primary">Log In</button>
                         </form
+                        <p>Not registered yet? Please register here: <a href="registrationjsp.jsp">Register</a></p>
                     </div>
                 </div>
             </div>
