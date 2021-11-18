@@ -13,25 +13,28 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <body>
 
         <div id="terminalContainer">
-            
-            
-            <div class="containerScreens">
-                <div id="cardNumber">
-                    <div id="cardnumber" class="d-inline-flex p-2 bd-highlight">
-                        <input type="number" class="form-control" id="floatingInput" placeholder="Card number" oninput="if( this.value.length > 16 )  this.value = this.value.slice(0,16)">
 
-                    </div>
-                    <div id="expirationdate">
-                        <input type="month" class="form-control" id="floatingPassword" placeholder="expiration Date"><p>/</p><input type="month" class="form-control" id="floatingPassword" placeholder="expiration Date">
-                        
-                    </div>
-                    <div id="cvv">
-                        <input type="number" class="form-control" id="floatingPassword" placeholder="CVV" oninput="if( this.value.length > 3 )  this.value = this.value.slice(0,3)">
 
-                    </div>
+            <div class="d-flex flex-column bd-highlight mb-3">
+
+                <div id="terminalscreen">
+                    <form id="cardname" method="POST">
+                        <input type="text" placeholder="Name">
+                    </form>
+                    <form id="cardnumber" method="POST">
+                        <input type="number" oninput="if( this.value.length > 16 )  this.value = this.value.slice(0,16)" placeholder="Card number">
+
+                    </form>
+                    <form id="cardnumberexpiration" method="POST">
+                        <input type="number" oninput="if( this.value.length > 2 )  this.value = this.value.slice(0)" placeholder="month">
+                        <input type="number" maxlength="2">
+
+                    </form>
+                    <form id="cardcvv" method="POST">
+
+                    </form>
                 </div>
-                
-                
+
             </div>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
