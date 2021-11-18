@@ -10,6 +10,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 
+
+
+
 body{
     background: url("images/image.jpg");
     background-size: 200%;
@@ -19,12 +22,17 @@ body{
     
     
   }
+  
 
 h1{
 
 color: #ff0000;
 }
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .terminal {
     padding: 10px;
@@ -44,6 +52,7 @@ color: #ff0000;
     border-radius: 5px;
     width: 100%;
     height: 65%;
+    
 }
 
 

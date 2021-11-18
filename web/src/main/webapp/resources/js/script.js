@@ -14,3 +14,5 @@ function addition(){
 function display(value) {
     document.getElementById("result").value += value;
 }
+
+

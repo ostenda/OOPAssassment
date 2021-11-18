@@ -14,10 +14,23 @@
     </head>
     <body>
 
-    <table class="terminal">
+    <table class="terminal" >
+            
         <tr>
-            <td colspan="3"><input class="display-box" type="text" id="result" disabled /></td>
+            <td colspan="3">
+                <div id="terminalscreen" class="display-box">
+                    <form>                    
+                        <input type="text" placeholder="FullName" name = "cardName">                                       
+                        <input type="number" placeholder="Card number" name = "cardNumber">                                       
+                        <input type="number"  size="3" placeholder="Month" name = "cardMonth"> /
+                        <input type="number" size="3" maxlength="2" placeholder="Year" name = "cardYear">                   
+                        <input type="number" placeholder="CCV Number">
+                    </form>
+                   
+                </div>
+            </td>
         </tr>
+        
         <tr>
             <!-- display() function display the value of clicked button -->
             <td><input class="button" type="button" value="1" onclick="display('1')" /> </td>
