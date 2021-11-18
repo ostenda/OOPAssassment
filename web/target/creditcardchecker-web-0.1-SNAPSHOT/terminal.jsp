@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="resources/css/style.css"/>
         <title>Terminal</title>
     </head>
     <body>
