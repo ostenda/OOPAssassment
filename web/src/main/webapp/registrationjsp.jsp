@@ -19,7 +19,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="images/Sample_User_Icon.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <form method="post">
+                        <form method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1">
