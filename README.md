@@ -16,7 +16,7 @@
   
 ## UML Robustness Diagram
   
-![RDiagram](/sshots/RDiagram.PNG "RDiagram")
+![RDiagram](/sshots/RDiagram.png "RDiagram")
 
 ## How to setup
 
