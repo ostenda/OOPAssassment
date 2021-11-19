@@ -45,23 +45,25 @@ public class RestController {
         
         // Setting users card details.
         cardFrom = new CreditCard();
+        cardFrom.setName(cardfrom_name);
         cardFrom.setCardnumber(cardfrom_number);
         cardFrom.setCvv(cardfrom_cvv_number);
         cardFrom.setEndDate(cardfrom_expiry_date);
         cardFrom.setIssueNumber(cardfrom_issue_number);
-        cardFrom.setName(cardfrom_name);
+        
         
         //Refund or return
         cardTo = new CreditCard();
+        cardTo.setName(cardto_name);
         cardTo.setCardnumber(cardto_number);
         cardTo.setCvv(cardto_cvv_number);
         cardTo.setEndDate(cardto_expiry_date);
         cardTo.setIssueNumber(cardto_issue_number);
-        cardTo.setName(cardto_name);
+        
 
         //posMode send - return - validate
         if (null != event) switch (event) {
-            case "transaction-sucess":
+            case "transaction-sent":
                 return transactionCompleted(cardFrom, cardTo, amount).toString();
             case "refund-transaction":
                 return refundCompleted(cardTo, cardFrom, amount).toString();
