@@ -9,7 +9,7 @@
 
 ## Terminal view
 
-![Terminal](/sshots/terminal.jpg "Terminal")
+![Terminal](/sshots/terminal.JPG "Terminal")
 
 ![](/screenshots/2.png)
 
