@@ -61,5 +61,4 @@ To start the project all the developers split up the work. It consisted of parts
 - HTML
 - Tomcat
 - Java server pages (JSP) 
-- HTML
 - CSS
