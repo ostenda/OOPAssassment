@@ -60,7 +60,18 @@ button:hover {
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+    
+    padding: 10px;
+    border-radius: 1em;
+    height: 480px;
+    width: 300px;
+    margin: auto;
+   
+}
+
+.container img {
+    width: 100%;
+    height: auto;
 }
 
 /* Clear floats */
