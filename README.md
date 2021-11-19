@@ -26,7 +26,7 @@ git clone https://github.com/ostenda/OOPAssassment
 4) Go to http://localhost:8080/ 
   
 # Use Cases 
-There are many cases in which a user or admin can use this application, for example:
+There are many cases in which a user can use this application:
 
 ## User point of view
 
@@ -40,7 +40,7 @@ There are many cases in which a user or admin can use this application, for exam
 
 
 # Contributions 
-To start this project, all developers were split into different sections of the web interface in order to design and develop an adequate and running application as shown below. We communicated on several calls and messages as well as interacted with each other in class hours to catch up and guide eachother on improvements or deteriorations in the web application.
+To start the project all the developers split up the work. It consisted of parts related to the backend, frontend, planning, documentation, diagrams or refactoring Code
 
 | Michal Ostenda | Alex Lloyd | Jonathan Ortiz | Joao Fragosopotes | Rodrigo Amaral |
 |-------------|--------------------|-------------|-----------------|-----------------|
