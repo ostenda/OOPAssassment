@@ -50,7 +50,7 @@ There are many cases in which a user or admin can use this application, for exam
 # Contributions 
 To start this project, all developers were split into different sections of the web interface in order to design and develop an adequate and running application as shown below. We communicated on several calls and messages as well as interacted with each other in class hours to catch up and guide eachother on improvements or deteriorations in the web application.
 
-| Michal Ostenda | Alex Lloyd | Jonathan Quispe | Joao Fragosopotes | Rodrigo Amaral |
+| Michal Ostenda | Alex Lloyd | Jonathan Ortiz | Joao Fragosopotes | Rodrigo Amaral |
 |-------------|--------------------|-------------|-----------------|-----------------|
 | Github | Backend |  Use Cases      |  Html/css/js     | Attributed tasks|
 |Html/css/js| Design Application| Wireframes  |          |Help Teammates with their tasks|
