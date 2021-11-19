@@ -5,7 +5,10 @@
 ## Links
 
 - [Repo](https://github.com/ostenda/OOPAssassment "Repo")
-
+  
+## Project plan
+  
+![Plan](/sshots/Plan.JPG "Plan")
 
 ## Terminal view
 
