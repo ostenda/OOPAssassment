@@ -49,7 +49,7 @@ To start the project all the developers split up the work. It consisted of parts
 
 | Michal Ostenda | Alex Lloyd | Jonathan Ortiz | Joao Fragosopotes | Rodrigo Amaral |
 |-------------|--------------------|-------------|-----------------|-----------------|
-| Github | Backend |  Use Cases      |  Refactoring Code     | Attributed tasks|
+| Github | Backend |  Use Cases      |  HTML/CSS/JS     | Attributed tasks|
 |Html/css/js| Design Application| Wireframes  |          |Help Teammates with their tasks|
 |Refactoring Code|  Refactoring Code  | HTML/CSS/JS    |          |Frontend/Backend|
 |Documentation|           |              |          |Robustness Diagram|
