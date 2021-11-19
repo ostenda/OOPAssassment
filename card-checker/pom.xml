@@ -39,5 +39,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <name>pos-creditcard-checker</name>
 </project>
