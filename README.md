@@ -38,14 +38,6 @@ There are many cases in which a user or admin can use this application, for exam
 | Step 4 |Application checks the card details and procceds for a transaction | An error message is shown letting user know details must be entered|
 | Step 5 | If card details are not provided or doesn't match return an error message | An error message is shown to correct the details |
 
-## Admin point of view
-
-|Admin | Action | Response|
-|------|--------|---------|
-| Step 1 | Admin tries to configure | Admin enters correct details and can configure the properties|
-| Step 2 | Admin views transactions of user | All transactions are viewed using a LogRecord |
-| Step 3 | Admin enters application | When the admin enteres the application, it will recognise the details |
-
 
 # Contributions 
 To start this project, all developers were split into different sections of the web interface in order to design and develop an adequate and running application as shown below. We communicated on several calls and messages as well as interacted with each other in class hours to catch up and guide eachother on improvements or deteriorations in the web application.
