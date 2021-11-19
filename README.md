@@ -13,10 +13,10 @@
 ## Terminal view
 
 ![Terminal](/sshots/terminal.JPG "Terminal")
-
-![](/screenshots/2.png)
-
-![](/screenshots/3.png)
+  
+## UML Robustness Diagram
+  
+![RDiagram](/sshots/RDiagram.PNG "RDiagram")
 
 ## How to setup
 
