@@ -52,16 +52,17 @@ To start this project, all developers were split into different sections of the 
 
 | Michal Ostenda | Alex Lloyd | Jonathan Quispe | Joao Fragosopotes | Rodrigo Amaral |
 |-------------|--------------------|-------------|-----------------|-----------------|
-| Github | UML Class Diagram  |Robustness Diagram|   Use Cases     |                 |
-|Html/css/js| Design Application| Html/css/js |Features defintion|
-|Refactoring Code|           | Wireframes    | Html/css|
-|Documentation|           | Wireframes    | Html/css|
+| Github | Backend |  Use Cases      |  Html/css/js     | Attributed tasks|
+|Html/css/js| Design Application| Wireframes  |          |Help Teammates with their tasks|
+|Refactoring Code|  Refactoring Code  |     |          |Frontend/Backend|
+|Documentation|           |              |          |Robustness Diagram|
 
 ## Built With
 
 - Java
 - JavaScript
 - HTML
-- We
+- Tomcat
+- Java server pages (JSP) 
 - HTML
 - CSS
